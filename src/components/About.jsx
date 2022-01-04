@@ -2,7 +2,7 @@ import React from "react";
 import imgChair from "../img/image 2.1.png";
 const About = () => {
   return (
-    <article className="about">
+    <article id="about">
       <img  src={imgChair} alt="img"></img>
       <div>
         <h1>About Us</h1>

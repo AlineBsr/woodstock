@@ -4,7 +4,7 @@ import imgLogo from "../img/woodStock.png";
 const Header = () => {
   return (
     <>
-    <div className="header">
+    <div id="header">
       <img className="imglogo" src={imgLogo} alt="logo" />
        <div className="img1">a</div>
        <div className="img2">b</div>

@@ -1,11 +1,15 @@
 import React from "react";
 import imgOffice from "../img/office.png";
+import imgLogo from "../img/wood.png";
 
 const Team = () => {
   return (
-    <article className="team">
+    <>
+    
+    <article id="team">
       <img className="imgBg" src={imgOffice} alt="img"></img>
-      <div className="divTeam">
+
+      <div>
         <h1>Creative Team</h1>
         
         <h2>Goog mindset</h2>
@@ -19,8 +23,11 @@ const Team = () => {
           culpa qui officia deserunt mollit anim id est laborum
         </p>
       </div>
+      <img className="imgLogo" src={imgLogo} alt="logo"></img>
 
     </article>
+    </>
+
   );
 };
 

@@ -1,4 +1,4 @@
-.shop{
+#shop{
     // float:right;
     display: flex;
     align-items: center;
@@ -6,6 +6,8 @@
     & p{   width: 70%;    }
   
     & .imgBg { 
+      max-width:70%;
+      min-width: 40%;
       padding: 10rem;
       padding-right: 5rem;
       filter:drop-shadow(50px -25px 0px wheat);

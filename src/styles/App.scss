@@ -8,6 +8,7 @@
 body{
   color: grey;
   text-align: justify;
+  font-size: 1.4rem;
 }
 
 h1 {
@@ -18,9 +19,11 @@ h1 {
 }
 
 .navbar {
+  display: flex;
+  // flex:1;
   justify-content: flex-end;
   & a  {
-    color : white;
+    color: white;
     font-weight: bold;
     align-content: space-around;
     padding-right: 3rem;

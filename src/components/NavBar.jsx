@@ -5,10 +5,10 @@ const NavBar = () => {
   return (
       <nav className="navbar bg-dark">
         <img src={logoNav} alt="logo"  />
-        <a href="/About">About</a>
-        <a href="/Furnitures">Furnitures</a>
-        <a href="/Shop">Shop</a>
-        <a href="/Contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="#furnitures">Furnitures</a>
+        <a href="#shop">Shop</a>
+        <a href="#contact">Contact</a>
       </nav>
       
   );

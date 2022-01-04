@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../img/wood.png";
 const Footer = () => {
   return (
-    <footer className="page-footer">
+    <footer id="footer">
       <img src={logo} alt="logo"/>
     </footer>
   );

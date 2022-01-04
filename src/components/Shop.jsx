@@ -3,7 +3,7 @@ import imgRestaurant from "../img/wood-restaurant.png";
 
 const Shop = () => {
   return (
-    <article className="shop">
+    <article id="shop">
       <img className="imgBg" src={imgRestaurant} alt="img"></img>
     <div>
       <h1>Shop</h1>
