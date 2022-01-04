@@ -1,0 +1,37 @@
+@import '_header';
+@import '_about';
+@import '_shop';
+@import '_team';
+@import '_contact';
+@import '_footer';
+
+body{
+  color: grey;
+  text-align: justify;
+}
+
+h1 {
+  border-left: 1rem solid wheat; 
+  padding: 1rem;
+  color: black;
+  text-transform:uppercase;
+}
+
+.navbar {
+  justify-content: flex-end;
+  & a  {
+    color : white;
+    font-weight: bold;
+    align-content: space-around;
+    padding-right: 3rem;
+  }
+  & img {
+      width: 5rem;
+      padding-right: 15px;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  /* .App-logo { */
+  /* animation: App-logo-spin infinite 20s linear; */
+  /* } */
+}

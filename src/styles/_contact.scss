@@ -1,0 +1,13 @@
+.contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    & h1 { border-left: none;}
+    & form {
+        flex-direction: column;
+        width:40%;
+    }
+}
+
+::placeholder { text-transform: uppercase; }    

@@ -1,0 +1,151 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .img1 {
+  flex-direction: column;
+  background-image: url("../img/wood-right.png");
+  height: 40rem;
+  width: 100%;
+  background-size: cover;
+}
+.header .img2 {
+  background-image: url("../img/wood-left.png");
+  height: 40rem;
+  width: 100%;
+  background-size: cover;
+}
+.header .imglogo {
+  position: absolute;
+  width: 20%;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: grey;
+}
+.about p {
+  width: 70%;
+}
+.about img {
+  padding: 10rem;
+  padding-right: 5rem;
+  filter: drop-shadow(-100px -50px 0px wheat);
+}
+
+.shop {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+.shop p {
+  width: 70%;
+}
+.shop .imgBg {
+  padding: 10rem;
+  padding-right: 5rem;
+  filter: drop-shadow(50px -25px 0px wheat);
+}
+
+.team {
+  display: flex;
+  background-color: #1d1818;
+  align-items: center;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-between;
+}
+.team .imgBg {
+  width: 25%;
+  padding-left: 5rem;
+  filter: sepia(60%);
+}
+.team div {
+  padding-left: 10rem;
+  padding-top: 2rem;
+  position: absolute;
+}
+.team h1 {
+  width: 50%;
+  text-align: left;
+  border-left: none;
+  background-color: white;
+}
+.team h2 {
+  padding-left: 10rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 50%;
+  text-align: center;
+}
+.team p {
+  padding-left: 15rem;
+  width: 70%;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact h1 {
+  border-left: none;
+}
+.contact form {
+  flex-direction: column;
+  width: 40%;
+}
+
+::-moz-placeholder {
+  text-transform: uppercase;
+}
+
+:-ms-input-placeholder {
+  text-transform: uppercase;
+}
+
+::placeholder {
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: black;
+  padding: 3rem;
+  text-align: center;
+}
+
+body {
+  color: grey;
+  text-align: justify;
+}
+
+h1 {
+  border-left: 1rem solid wheat;
+  padding: 1rem;
+  color: black;
+  text-transform: uppercase;
+}
+
+.navbar {
+  justify-content: flex-end;
+}
+.navbar a {
+  color: white;
+  font-weight: bold;
+  align-content: space-around;
+  padding-right: 3rem;
+}
+.navbar img {
+  width: 5rem;
+  padding-right: 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* .App-logo { */
+  /* animation: App-logo-spin infinite 20s linear; */
+  /* } */
+}

@@ -1,0 +1,25 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & .img1{
+    flex-direction: column;
+    background-image: url('../img/wood-right.png') ;
+    height: 40rem;
+    width: 100%;
+    background-size: cover;
+  }
+
+  & .img2{
+    background-image: url('../img/wood-left.png') ;
+    height: 40rem;
+    width: 100%;
+    background-size: cover;
+  }  
+
+& .imglogo{
+  position: absolute;
+  width: 20%;
+  }
+}

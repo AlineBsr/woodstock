@@ -1,0 +1,13 @@
+.shop{
+    // float:right;
+    display: flex;
+    align-items: center;
+    color: grey;     
+    & p{   width: 70%;    }
+  
+    & .imgBg { 
+      padding: 10rem;
+      padding-right: 5rem;
+      filter:drop-shadow(50px -25px 0px wheat);
+      }
+}
