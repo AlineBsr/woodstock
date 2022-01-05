@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/woodstock/static/css/main.330b8548.css",
-    "main.js": "/woodstock/static/js/main.a43897df.js",
+    "main.css": "/woodstock/static/css/main.89b94916.css",
+    "main.js": "/woodstock/static/js/main.8161ffef.js",
     "static/media/office.png": "/woodstock/static/media/office.41e28e6e1c25de746703.png",
     "static/media/wood-left.png": "/woodstock/static/media/wood-left.f791631b5d32089dbe61.png",
     "static/media/wood-right.png": "/woodstock/static/media/wood-right.606e50e973ba3c3d20fb.png",
     "static/media/wood-restaurant.png": "/woodstock/static/media/wood-restaurant.bc47e1fb41977931088a.png",
     "static/media/image 2.1.png": "/woodstock/static/media/image 2.1.e057b0c6d5feb0ed10b8.png",
     "index.html": "/woodstock/index.html",
-    "main.330b8548.css.map": "/woodstock/static/css/main.330b8548.css.map",
-    "main.a43897df.js.map": "/woodstock/static/js/main.a43897df.js.map"
+    "main.89b94916.css.map": "/woodstock/static/css/main.89b94916.css.map",
+    "main.8161ffef.js.map": "/woodstock/static/js/main.8161ffef.js.map"
   },
   "entrypoints": [
-    "static/css/main.330b8548.css",
-    "static/js/main.a43897df.js"
+    "static/css/main.89b94916.css",
+    "static/js/main.8161ffef.js"
   ]
 }
