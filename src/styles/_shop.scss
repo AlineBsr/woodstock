@@ -3,12 +3,18 @@
     display: flex;
     align-items: center;
     color: grey;     
-    & p{   width: 70%;    }
+      padding-left: 5rem;
+
+      & p{  
+      display:flex;
+       width: 70%;  
+       
+         }
   
     & .imgBg { 
       max-width:70%;
-      min-width: 40%;
-      padding: 10rem;
+      min-width: 50%;
+      padding: 3rem;
       padding-right: 5rem;
       filter:drop-shadow(50px -25px 0px wheat);
       }

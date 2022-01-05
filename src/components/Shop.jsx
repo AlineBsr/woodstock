@@ -4,7 +4,6 @@ import imgRestaurant from "../img/wood-restaurant.png";
 const Shop = () => {
   return (
     <article id="shop">
-      <img className="imgBg" src={imgRestaurant} alt="img"></img>
     <div>
       <h1>Shop</h1>
       <p>
@@ -17,6 +16,8 @@ const Shop = () => {
           culpa qui officia deserunt mollit anim id est laborum
         </p>
       </div>
+      <img className="imgBg" src={imgRestaurant} alt="img"></img>
+
     </article>
   );
 };
